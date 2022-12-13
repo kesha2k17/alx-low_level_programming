@@ -1,11 +1,13 @@
-#include	"main.h"
+#include "main.h"
 
 /**
- * print_alphabet	Entry	point
+ * print_alphabet	entry	point
  *
- * Return:	Always	0	(Success)
+ * Return:	0
  */
-void print_alphabet(void);
+
+void print_alphabet(void)
+
 {
 	char c = 'a';
 
@@ -14,6 +16,8 @@ void print_alphabet(void);
 		_putchar(c);
 		c++;
 	}
+
 	_putchar('\n');
+
 }
 

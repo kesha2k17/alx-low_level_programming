@@ -1,4 +1,4 @@
-include	"main.h"
+#include	"main.h"
 
 /**
  * _isupper - checks uppercase
@@ -17,4 +17,3 @@ int _isupper(int c)
 		return (0);
 	}
 }
-
